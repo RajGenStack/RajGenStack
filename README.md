@@ -43,6 +43,21 @@ Everything below is public and reproducible: each repository documents its archi
 | **[CareerCompass](https://github.com/RajGenStack/career-compass)** | Career-path quiz with accounts and saved results, deployed to EC2 from GitHub Actions | Flask · MySQL · Docker Compose · GitHub Actions |
 | **[Portfolio](https://github.com/RajGenStack/new-projectsx-2004)** | Full-stack portfolio with AI assistants and three languages, behind Nginx with TLS | React · Node.js · MongoDB · Groq · Nginx |
 
+## Skills, with the code that backs them
+
+Every capability below links to repositories where it is actually implemented, not just listed.
+
+| Capability | Where to see it |
+|---|---|
+| **CI/CD with Jenkins** (9 repositories) | [Multibranch and GitOps to EKS](https://github.com/RajGenStack/Production-Grade-CI-CD-Pipeline-with-Jenkins-Multibranch-GitOps) &middot; [Wanderlust DevSecOps](https://github.com/RajGenStack/CI-CD-Pipeline-project) &middot; [Lumio](https://github.com/RajGenStack/YouTube-Video-Downloader-LUMIO) |
+| **GitHub Actions** (4 repositories) | [Aegis: tests, Terraform, deploy](https://github.com/RajGenStack/aegis-self-healing-triage) &middot; [Java to EC2](https://github.com/RajGenStack/GitHub-Actions-Project-Java) &middot; [Sentiment MLOps to ECR](https://github.com/RajGenStack/End-to-End-Sentiment-Analysis-MLOps) |
+| **Kubernetes and Amazon EKS** (8 repositories) | [Ingress and Argo CD](https://github.com/RajGenStack/Microservices-Deployment-with-Ingress-Helm-and-Argo-CD) &middot; [ALB Controller routing](https://github.com/RajGenStack/aws-lb-controller-domain-configuration-RJS) &middot; [E-commerce to EKS](https://github.com/RajGenStack/Deployment-Of-E-Commerce-Application) |
+| **Terraform** (6 repositories) | [EKS cluster and VPC](https://github.com/RajGenStack/Automated-EKS-Provisioning-on-AWS-using-Terraform-and-Jenkins) &middot; [3-tier VPC from primitives](https://github.com/RajGenStack/Built-a-Scalable-AWS-3-Tier-Architecture-with-Terraform) &middot; [Modular serverless stack](https://github.com/RajGenStack/aegis-self-healing-triage) |
+| **Docker** (15 repositories) | [Multi-stage image with FFmpeg](https://github.com/RajGenStack/YouTube-Video-Downloader-LUMIO) &middot; [App and database in Compose](https://github.com/RajGenStack/career-compass) &middot; [Four-container stack](https://github.com/RajGenStack/new-projectsx-2004) |
+| **Security gates in pipelines** | Trivy, OWASP Dependency-Check and SonarQube quality gates in [Wanderlust](https://github.com/RajGenStack/CI-CD-Pipeline-project), [food ordering](https://github.com/RajGenStack/Deployment-of-Food-Ordering-and-Delivery-Application) and [ticketing](https://github.com/RajGenStack/Deployment-of-Online-Ticketing-and-Event-Management-Application) |
+| **Observability and self-healing** | CloudWatch alarms driving automatic remediation, with chaos testing, in [Aegis](https://github.com/RajGenStack/aegis-self-healing-triage) |
+| **MLOps** | DVC pipeline, MLflow tracking and a registered model in [sentiment analysis](https://github.com/RajGenStack/End-to-End-Sentiment-Analysis-MLOps) |
+
 ## More projects and labs
 
 Several of these follow DevOps courses or open-source references; each README credits its source.
@@ -69,6 +84,12 @@ Several of these follow DevOps courses or open-source references; each README cr
 | **MLOps and APIs** | ![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white) ![DVC](https://img.shields.io/badge/DVC-13ADC7?style=flat-square&logo=dvc&logoColor=white) ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) |
 | **Databases** | ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white) ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white) |
 | **Tools** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white) |
+
+## Training and education
+
+**Course certificates** &mdash; StarAgile: AWS Solutions Architect, DevOps Engineer, Docker, Kubernetes. Udemy: AWS Certified Solutions Architect Associate (exam preparation course).
+
+**Education** &mdash; BBA in Computer Applications, SNS Institutions, Coimbatore (2022&ndash;2025).
 
 <div align="center">
 <sub>The banner and stats card above are generated into this repository by <a href="scripts/generate_stats.py">scripts/generate_stats.py</a>, so nothing here depends on a third-party image service staying online.</sub>
